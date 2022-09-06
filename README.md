@@ -15,7 +15,7 @@ This project was led by Alistair Marsden, Erick Sanmartin, Jerad Ipsen, and Kyle
 https://www.census.gov/data/developers/data-sets/abs.2019.html, the U.S. census Bureau’s data on a 2019 company survey recording data on owner demographics, industry and business information, as well as use of technology.
 
 ## Data Extraction
->A complete ETL report can be found under Census-Project-Report.pdf.
+>A complete ETL report can be found under Census-ETL.pdf.
 
 The data set used was extracted from the Census Bureau website using an API call through python, which was brought in as JSON and read into a pandas data frame. Each member individually worked in a .ipynb file where each member had their own process for transforming including renaming columns, replacing values provided by the API, and filtering out unnecessary rows. Each individual process can be found in the python notebook files provided in the repository.
 
